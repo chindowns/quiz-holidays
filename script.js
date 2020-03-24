@@ -99,23 +99,42 @@ function nextQuestion() {
 // Quiz Questions
 var questions = [{
     question: "Where is Diwali celebrated", 
-    choices:["Russia", "India", "China", "Egypt"],
+    choices: ["Russia", "India", "China", "Egypt"],
     answer: "India"
 },{
     question: "When is Easter",
-    choices:["Spring", "Summer", "Autumn", "Winter"],
+    choices: ["Spring", "Summer", "Autumn", "Winter"],
     answer: "Spring"
 },{
     question: "Which is not true about Holi",
-    choices:["Colorful", "Full Moon", "Hindu Celebration", "Christian Holiday"],
+    choices: ["Colorful", "Full Moon", "Hindu Celebration", "Christian Holiday"],
     answer: "Christian Holiday"
 },{
     question: "La Tomatina is celebrated in ",
-    choices:["Argentina", "Spain", "Canada", "Austraila"],
+    choices: ["Argentina", "Spain", "Canada", "Austraila"],
     answer: "Spain"
+},{
+    question: "Passover occurs in",
+    choices: ["Summer", "Winter", "Spring", "Fall"],
+    answer: "Spring",
+},{
+    question: "Hanukkah is",
+    choices: ["1 day", "expensive gifts", "in December", "Hindu holiday"],
+    answer: "in December",
+},{
+    quetsion: "Kwanzaa is",
+    choices: ["1 day", "quite holiday", "Christian holiday", "African American"],
+    answer: "an African American"
+},{
+    question: "New Year is",
+    choices: ["only in USA", "has Fireworks", "on Dec. 25", "starts at noon"],
+    answer: "has Fireworks"
+},{
+    quetsion: "Lunar New Year",
+    choices: ["celebrated across Asia", "on Feb 25", "predominantly Chinese", "minor holiday"],
+    answer: "predominantly Chinese"
 }
 ];
-
 
 
 
