@@ -27,6 +27,14 @@ header {
 
 #results {
   display: none;
+  font-weight: bolder;
+  font-size: 50px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#results-div{
+  background: lightgrey;
+
 }
 
 #quiz {

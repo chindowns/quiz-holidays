@@ -21,7 +21,6 @@ console.log("Remaing Time Is: " + time);
             stopQuiz();
         }
     },1000);
-
 }
 
 function stopQuiz(){
@@ -33,7 +32,7 @@ function stopQuiz(){
 function showResults() {
     var elResults = document.getElementById("results-div");
     elResults.parentElement.style.display = "block";
-    elResults.style.display = "background: grey;";
+    elResults.innerHTML = "GAME OVER"
 
 }
 
@@ -122,7 +121,7 @@ var questions = [{
     choices: ["1 day", "expensive gifts", "in December", "Hindu holiday"],
     answer: "in December",
 },{
-    quetsion: "Kwanzaa is",
+    question: "Kwanzaa is",
     choices: ["1 day", "quite holiday", "Christian holiday", "African American"],
     answer: "an African American"
 },{
@@ -130,7 +129,7 @@ var questions = [{
     choices: ["only in USA", "has Fireworks", "on Dec. 25", "starts at noon"],
     answer: "has Fireworks"
 },{
-    quetsion: "Lunar New Year",
+    question: "Lunar New Year",
     choices: ["celebrated across Asia", "on Feb 25", "predominantly Chinese", "minor holiday"],
     answer: "predominantly Chinese"
 }
