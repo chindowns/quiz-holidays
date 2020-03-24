@@ -1,0 +1,77 @@
+* {
+
+}
+
+body {
+  text-align: center;
+  font-family: 'Baloo 2', cursive;
+}
+
+.container {
+  max-width: 720px;
+  /* make everything centered */
+  margin: 25px auto;
+}
+
+header {
+  background: chocolate;
+  margin-bottom: 50px;
+  padding: 10px;
+  color: ghostwhite;
+  border: 3px solid lightgrey;
+}
+
+#instructions {
+  list-style-type: none;
+}
+
+#quiz {
+  display: none;
+}
+
+#question {
+  font-size: 30px;
+}
+
+.buttons {
+  width: 600px;
+  margin: 0 auto;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+  flex-shrink: 0;
+  width: 250px;
+  background: darkorange;
+  font-size: 20px;
+  color: white;
+  border: 1px solid lightgrey;
+  margin: 40px 20px 20px 20px;
+  padding: 10px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+  cursor: pointer;
+  background: lightgrey
+}
+
+footer{
+  display: flex;
+  margin-top: 25px;
+  flex-direction: row;
+  justify-content: space-around;
+  background: lightgrey;
+  padding:o auto;
+}
+
+.footer {
+  background: chocolate;
+  padding:5px;
+  margin:0 auto;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
