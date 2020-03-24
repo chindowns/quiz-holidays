@@ -25,6 +25,10 @@ header {
   list-style-type: none;
 }
 
+#results {
+  display: none;
+}
+
 #quiz {
   display: none;
 }
