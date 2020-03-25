@@ -65,7 +65,7 @@ header {
   padding: 10px;
 }
 
-#choice0:hover, #choice1:hover, #choice2:hover, #choice3:hover {
+#choice0:active, #choice1:active, #choice2:active, #choice3:active {
   cursor: pointer;
   background: lightgrey
 }

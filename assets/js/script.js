@@ -57,6 +57,7 @@ function showScores (){
 function checkAnswers(event) {
     console.log(event);
     var answerBtn = event.target;
+    answerBtn.setAttribute("background", "darkorange");
     var answer = answerBtn.getAttribute("data-answer");
     console.log("========= Selected Answer ===========")
     console.log(answer)
