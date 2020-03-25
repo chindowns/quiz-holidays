@@ -5,7 +5,7 @@ var elementQuiz = document.querySelector("#quiz");
 // Global Variables of information the game tracks
 var correct = 0;
 var wrong = 0;
-var time = 30;
+var time = 60;
 var interval;
 var currentQuestion = [];
 var currentChoices = [];
