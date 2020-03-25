@@ -133,6 +133,30 @@ var questions = [{
     question: "Lunar New Year",
     choices: ["celebrated across Asia", "on Feb 25", "predominantly Chinese", "minor holiday"],
     answer: "predominantly Chinese"
+},{
+    question:"What is Mardis Gras",
+    choices: ["Fat Tuesday", "Skinny Wednesday", "Qiuet Family Time", "Summer Parade"],
+    answer: "Fat Tuesday"
+},{
+    question:"What is 0-Bon",
+    choices: ["Phillipino Holiday","Japanese Buddhist", "Mexican Celebraion","O'Canada"],
+    answer: "Japanese Buddhist"
+},{
+    question:"Labor Day",
+    choices: ["Remeber Pearl Harbor", "End of Summer", "Honors the Fortune 100", "Began 1600's"],
+    answer: "End of Summer"
+},{
+    question:"Day of the Dead",
+    choices: ["Celebrated May 5", "Canadian Holiday", "Greek Holiday", "Mexican Holiday"],
+    answer: "Mexican Holiday"
+},{
+    question:"What is Ramadan",
+    choices: ["Holy Month", "Single Day","Month of Feasts", "Started with Pilgrims"],
+    answer: "Holy Month"
+},{
+    question:"Boxing Day",
+    choices: ["Dec 26", "Day after Thanksgiving", "Friday before Easter", "Jan 2"],
+    answer: "Dec 26"
 }
 ];
 
